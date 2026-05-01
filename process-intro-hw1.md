@@ -5,6 +5,7 @@ What should the CPU utilization be (e.g., the percent of time the CPU is in use?
 ### Answer
 I expect the CPU utilization to be 100%, because as soon as one process ends, the other one starts immediately and it is not blocked by any I/O operation.
 
+```
 Time        PID: 0        PID: 1           CPU           IOs
   1   RUN:cpu          READY             1
   2   RUN:cpu          READY             1
@@ -20,4 +21,5 @@ Time        PID: 0        PID: 1           CPU           IOs
 Stats: Total Time 10
 Stats: CPU Busy 10 (100.00%)
 Stats: IO Busy  0 (0.00%)
+```
 

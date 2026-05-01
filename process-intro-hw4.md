@@ -4,6 +4,7 @@
 ### Answer
 I expect the result to be the same as question 2, because we force the system to switch only at the end of the I/O.
 
+```
 Time        PID: 0        PID: 1           CPU           IOs
   1         RUN:io         READY             1
   2        BLOCKED         READY                           1
@@ -20,3 +21,4 @@ Time        PID: 0        PID: 1           CPU           IOs
 Stats: Total Time 11
 Stats: CPU Busy 6 (54.55%)
 Stats: IO Busy  5 (45.45%)
+```
