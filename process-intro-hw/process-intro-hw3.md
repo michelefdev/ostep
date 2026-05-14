@@ -1,6 +1,5 @@
 ## Question 3
-Switch the order of the processes: -l 1:0,4:100. What happens now? Does switching the order matter? Why? (As always, use -c
-and -p to see if you were right)
+Switch the order of the processes: -l 1:0,4:100. What happens now? Does switching the order matter? Why? (As always, use -c and -p to see if you were right)
 
 ### Answer 
 Now the first process starts an I/O  operation, and the CPU is idle, so it can start working on the second process. 
